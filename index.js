@@ -125,7 +125,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 
 
-app.get('/', function(req, res,next){
+app.get('/rates', function(req, res,next){
 
 
 var aurToBtc = function(callback) {
